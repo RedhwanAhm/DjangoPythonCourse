@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables</title>
+</head>
+<body>
+    <h1>Tables</h1>
+    <table border="1">
+        <thead>
+            <th>Number</th>
+            <th>Color</th>
+            <th>Country</th>
+        </thead>
+        <tr>
+            <td>250</td>
+            <td>red</td>
+            <td>usa</td>
+        </tr>
+        <tr>
+            <td>100</td>
+            <td>blue</td>
+            <td>france</td>
+        </tr>
+    </table>
+
+    <h1>Tables Quiz</h1>
+    <table border="1">
+        <thead>
+            <tr>
+                <th rowspan="2">Country/Territory</th>
+                <th rowspan="2">UN Region</th>
+                <th colspan="2">IMF</th>
+                <th colspan="2">United Nations</th>
+                <th colspan="2">World Bank</th>
+            </tr>
+            <tr>
+                <th>Estimate</th>
+                <th>Year</th>
+                <th>Estimate</th>
+                <th>Year</th>
+                <th>Estimate</th>
+                <th>Year</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>United States</td>
+                <td>Americas</td>
+                <td>25,346,805</td>
+                <td>2022</td>
+                <td>20,893,746</td>
+                <td>2020</td>
+                <td>20,936,600</td>
+                <td>2020</td>
+            </tr>
+            <tr>
+                <td>China</td>
+                <td>Asia</td>
+                <td>19,911,593</td>
+                <td>2022</td>
+                <td>14,722,801</td>
+                <td>2020</td>
+                <td>14,722,731</td>
+                <td>2020</td>
+            </tr>
+            <tr>
+                <td>Japan</td>
+                <td>Asia</td>
+                <td>4,912,147</td>
+                <td>2022</td>
+                <td>5,057,759</td>
+                <td>2020</td>
+                <td>4,975,415</td>
+                <td>2020</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- Section -->
+    <h1>Forms Basics</h1>
+    <form>
+        <h2>Log In</h2>
+        <h3>Please input your email and password</h3>
+        <input type="email" name="userEmail" value="Email Here">
+        <input type="password" name="userCred" value="">
+        <input type="submit" value="Click me">
+    </form>
+
+    <form>
+        <h2>Choose Color</h2>
+        <h3>Click button</h3>
+        <input type="color" name="userColor" value="breh">
+    </form>
+
+    <form>
+        <h3>Enter some text</h3>
+        <input type="text" name="userColor" value="text goes Here">
+    </form>
+
+    <form action="https://www.facebook.com" method="get">
+        <h2>Enter Text:</h2>
+        <input type="text" name="userInput" value="breh">
+        <input type="submit">
+    </form>
+
+    
+    <br><br>
+    <form>
+        
+       <label>Enter some text</label>
+       <input type="text">
+    </form>
+
+    <br><br>
+    <form action="">
+        
+        <label for="userinput">Enter Input:</label>
+        <input id="userinput" type="text" name="" placeholder="Hello">
+    </form>
+
+    <br><br>
+    <form action="">
+        <input  type="text" name="" placeholder="required">
+        <input  type="text" name="" placeholder="not required">
+        <input  type="submit" name="" value="submit">
+    </form>
+
+    <br><br>
+    <h1>Hotel Feedback Form</h1>
+    <form method="get">
+        <h3>Are from inside the US or outside the US?</h3>
+        <label for="inUS">Inside: 
+            <input id="inUS" type="radio" name="loc" id="" value="inside">
+        </label>
+
+        <label for="outUS">Outside: 
+            <input id="outUS" type="radio" name="loc" id="" value="outside">
+        </label>
+        
+        <h3>How was your service?</h3>
+        <select name="stars" id="">
+            <option value="Excellent">5</option>
+            <option value="Great">4</option>
+            <option value="Okay">3</option>
+            <option value="Bad">2</option>
+            <option value="Terrible">1</option>
+        </select>
+        <h3>Any other feedback?</h3>
+        <textarea name="mytext" id="" cols="80" rows="8"></textarea>
+        <input type="submit">
+    </form>
+</body>
+</html>
