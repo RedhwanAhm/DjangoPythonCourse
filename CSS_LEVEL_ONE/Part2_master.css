@@ -1,0 +1,18 @@
+body {
+    background: url(https://images.pexels.com/photos/258109/pexels-photo-258109.jpeg?cs=srgb&dl=pexels-pixabay-258109.jpg&fm=jpg) repeat top right;
+    background-size: cover;
+}
+
+div {
+    background-color: blue;
+    border: orange 5px double;
+}
+
+p{ 
+    color: yellow 
+}
+
+span {
+    background: red;
+    color: black;
+}
